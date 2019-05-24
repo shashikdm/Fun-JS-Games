@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {{>head}}
+    <body>
+        {{>header}}
+        {{>navbar}}
+        <ul class="list-group justify-content-center text-center" id = "game-list">
+            {{#each gamelist}}
+                <li class = "list-group-item"><a href = "games/{{this}}">{{this}}</a></li>
+            {{/each}}
+        </ul> 
+        {{>footer}}
+    </body>
+</html>

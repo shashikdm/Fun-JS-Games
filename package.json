@@ -1,0 +1,35 @@
+{
+  "name": "fun-js-games",
+  "version": "1.0.0",
+  "description": "funny simple games written in JavaScript",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,html,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashikdm/Fun-JS-Games.git"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "html",
+    "webapp",
+    "game",
+    "games"
+  ],
+  "author": "Shashikant Kadam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashikdm/Fun-JS-Games/issues"
+  },
+  "homepage": "https://github.com/shashikdm/Fun-JS-Games#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "hbs": "^4.0.4"
+  }
+}
