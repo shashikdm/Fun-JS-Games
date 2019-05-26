@@ -1,0 +1,22 @@
+#spinner
+{
+    height:229px;
+    width:200px;
+    background:url("https://lh3.googleusercontent.com/-8VPQX2YNapxiUrZnBUAkkObl_iUZtACbRCjkzb-pCVoInONyqSoSh5x9wNfihpnK6hy=w300");
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:block;
+    margin:auto;
+}
+#speedometer
+{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+}
+button
+{
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}

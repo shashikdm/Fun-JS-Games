@@ -1,0 +1,1 @@
+Shoot ducks by clicking on them

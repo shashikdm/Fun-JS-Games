@@ -1,0 +1,37 @@
+#map
+{
+ z-index:0;
+ postion:relative;
+ margin:auto;
+ height:97vh;
+}
+#land
+{
+ z-index:2;
+ position:fixed;
+ background:linear-gradient(white,skyblue ,darkblue 20%,blue);
+ background-size:cover;
+ top:85%;
+ right:0px;
+ bottom:0px;
+ left:0px;
+}
+#duck
+{
+ z-index:1;
+ position:absolute;
+background:url("https://cdn.vectorstock.com/i/thumb-large/61/23/6256123.jpg");
+ background-size:contain;
+ background-repeat:no-repeat;
+ height:50px;
+ width:70px;
+}
+table
+{
+ z-index:3;
+ position:fixed;
+ border:white;
+ top:20px;
+ left:20px;
+ font-family:courier;
+}
